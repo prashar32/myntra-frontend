@@ -1,3 +1,7 @@
+# Hosted Link
+
+Open [https://myntra-frontend-clone-prashar32.netlify.app/](https://myntra-frontend-clone-prashar32.netlify.app/) to view in browser
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
