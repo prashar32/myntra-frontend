@@ -1,0 +1,35 @@
+.breadCrumb {
+    background-color: white !important;
+    font-size: 13px !important;
+    padding: 0;
+  }
+  
+  /* .breadCrumb > li > a {
+    color: gray !important;
+  } */
+  
+  .breadcrumbContainer > :hover {
+    color: black !important;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .breadCrumb p {
+    font-size: 14px;
+  }
+
+  .breadCrumb:not(:first-child)::before  {
+    content: " \\ ";
+  }
+
+  
+
+.breadcrumbContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+

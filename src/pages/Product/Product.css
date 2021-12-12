@@ -1,0 +1,34 @@
+.rowProduct{
+    height: 90vh;
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: column;
+}
+
+.breadCrumb{
+    height: 2vh;
+    text-align: left;
+    padding: 2vh 0;
+}
+
+.breadCrumb:first-child{
+    padding-left: 1vw;
+}
+
+.productWindow{
+    height: 88vh;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.sideFilter{
+    flex-grow: 1;
+    max-width: 20vw;
+}
+
+.productList{
+    flex-grow: 10;
+    max-width: 75vw;
+    max-height: 100vh;
+}

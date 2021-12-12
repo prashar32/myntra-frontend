@@ -1,0 +1,50 @@
+.sideFilterList{
+    /* border: 1px solid black; */
+    height: 100%;
+}
+
+.filterContainer{
+    height: 70vh;
+    width: 90%;
+    border: 1px solid rgb(209, 208, 208);
+    border-radius: 5px;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.filterHeading{
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-weight: 500;
+    padding: 5% 5%;
+}
+
+.radioGroup{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-start;
+height:15vh;
+font-weight: 600;
+width: 80%;
+margin: 10% 10%;
+border-bottom: 1px solid rgb(230, 228, 228);
+padding-bottom: 15%;
+}
+
+
+
+.radioElement{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+}
+
+.radioLabel{
+    margin: 0 5%;
+}
+
